@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { GiMaterialsScience } from "react-icons/gi";
 
+import PlaySound from "./PlaySound";
 const Navbar = ({ variant }) => {
 	return (
 		<nav
@@ -12,22 +13,25 @@ const Navbar = ({ variant }) => {
 			}
 		>
 			<Link href="/">
-				<div className="flex justify-center items-center cursor-pointer">
-					<GiMaterialsScience className="text-5xl " />
+				<div className="flex justify-center items-center cursor-pointer ml-8">
+					<GiMaterialsScience className="text-3xl sm:text-5xl " />
 					<p className="text-2xl hidden sm:block ml-4">Rick & Morty</p>
 				</div>
 			</Link>
-			<div className="w-10/12 sm:w-1/2 xl:w-[85%] flex justify-evenly items-center">
+			<div className="w-10/12 sm:w-1/2 xl:w-[80%] flex justify-evenly items-center">
 				<Link className="" href={"/locations"}>
-					<p className="text-2xl hover:underline hover:underline-offset-8 cursor-pointer ">
+					<p className="sm:text-2xl hover:underline hover:underline-offset-8 cursor-pointer ">
 						Locations
 					</p>
 				</Link>
 				<Link href={"/residents"}>
-					<p className="hover:underline text-2xl hover:underline-offset-8 cursor-pointer">
+					<p className="hover:underline sm:text-2xl hover:underline-offset-8 cursor-pointer">
 						Residents
 					</p>
 				</Link>
+			</div>
+			<div className="mr-8">
+				<PlaySound />
 			</div>
 		</nav>
 	);

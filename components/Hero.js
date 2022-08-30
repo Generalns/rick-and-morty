@@ -17,7 +17,7 @@ const Hero = () => {
 	return (
 		<>
 			<div
-				className={`absolute w-full h-screen z-10 flex justify-center items-center`}
+				className={`absolute w-screen overflow-x-hidden h-screen z-10 flex justify-center items-center `}
 				style={{
 					background: "linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))",
 				}}
