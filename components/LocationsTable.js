@@ -46,12 +46,13 @@ export default function LocationsTable({ locations }) {
 										query = query.join(",");
 										return (
 											<Link
+												key={index}
 												href={{
 													pathname: "/residents",
 													query: { residents: query, location: location.name },
 												}}
 											>
-												<tr key={index} className="cursor-pointer">
+												<tr className="cursor-pointer">
 													<td className="px-6 py-4 text-sm font-medium text-gray-800 text-center whitespace-nowrap">
 														{location.name}
 													</td>

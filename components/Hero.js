@@ -32,11 +32,9 @@ const Hero = () => {
 							and science
 						</p>
 						<div className="flex justify-end sm:justify-start my-8">
-							<Button
-								link="/locations"
-								text={"Locations"}
-								children={<IoLocationSharp className="text-xl sm:text-2xl" />}
-							/>
+							<Button link="/locations" text={"Locations"}>
+								<IoLocationSharp className="text-xl sm:text-2xl" />
+							</Button>
 						</div>
 					</div>
 					<div className="hidden lg:flex  justify-center items-center w-5/12 ">
