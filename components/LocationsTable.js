@@ -52,7 +52,7 @@ export default function LocationsTable({ locations }) {
 													query: { residents: query, location: location.name },
 												}}
 											>
-												<tr className="cursor-pointer">
+												<tr className="cursor-pointer bg-white text-black">
 													<td className="px-6 py-4 text-sm font-medium text-gray-800 text-center whitespace-nowrap">
 														{location.name}
 													</td>

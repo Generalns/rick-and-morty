@@ -6,7 +6,7 @@ const CharacterCard = ({ character }) => {
 			<div className="w-full relative h-80 sm:h-96">
 				<Image alt="resident" src={image} layout="fill" objectFit="cover" />
 			</div>
-			<div className="my-4 flex justify-between px-8">
+			<div className="my-4 flex justify-between px-8 text-black">
 				<div className="w-full">
 					<div className="flex justify-center items-center my-4">
 						<p className="text-xl font-bold text-center">{name ? name : "-"}</p>
