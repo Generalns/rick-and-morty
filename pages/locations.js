@@ -36,7 +36,7 @@ function Locations(props) {
 		<Layout>
 			<div className="w-full flex justify-center items-center bg-white">
 				<div className="my-32 w-full md:container">
-					<p className="text-center text-3xl mb-8">LOCATIONS</p>
+					<p className="text-center text-3xl mb-8 text-black">LOCATIONS</p>
 					{loading ? (
 						<h1>Loading..</h1>
 					) : (
