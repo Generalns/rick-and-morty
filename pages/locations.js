@@ -34,7 +34,7 @@ function Locations(props) {
 	};
 	return (
 		<Layout>
-			<div className="w-full flex justify-center items-center">
+			<div className="w-full flex justify-center items-center bg-white">
 				<div className="my-32 w-full md:container">
 					<p className="text-center text-3xl mb-8">LOCATIONS</p>
 					{loading ? (

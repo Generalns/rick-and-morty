@@ -7,7 +7,7 @@ const Residents = ({ fetchedResidents, location }) => {
 		: fetchedResidents;
 	return (
 		<Layout>
-			<div className="w-full flex flex-col justify-center items-center my-20 sm:my-32">
+			<div className="w-full flex flex-col justify-center items-center my-20 sm:my-32 bg-white">
 				<p className="text-4xl font-bold text-center mb-8">
 					{location ? location.toUpperCase() : ""}
 				</p>
