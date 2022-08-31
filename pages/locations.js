@@ -53,7 +53,7 @@ function Locations(props) {
 							initialPage={0}
 							pageCount={7}
 							onPageChange={handlePagination}
-							containerClassName={"flex items-center justify-center"}
+							containerClassName={"flex items-center justify-center text-black"}
 							subContainerClassName={"flex"}
 							pageClassName={"paginate-li"}
 							pageLinkClassName={"mx-2"}
